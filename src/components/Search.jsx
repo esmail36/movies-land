@@ -10,7 +10,6 @@ const Search = ({ searchTerm, setSearchTerm }) => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <h1 className="text-white">{searchTerm}</h1>
       </div>
     </div>
   );
